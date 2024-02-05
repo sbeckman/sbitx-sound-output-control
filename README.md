@@ -5,7 +5,7 @@ $ ./sbitx
   will start the sbitx program with the normal WM8731 as the audio output device.
 
 $ ./sbitx plughw:0,0
-  will accomplish the same thing - the WM8731 will be used as the audio output device (although this time the command line parameter specifies the device.)
+  will accomplish the same thing - the WM8731 will be used as the audio output device (although in this example the command line parameter specifies the device.)
 
 After plugging in an inexpensive USB sound out / microphone in dongle, which created a hw:4,0 device:
 
