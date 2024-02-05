@@ -13,7 +13,7 @@ $ ./sbitx plughw:4,0
   will send the filtered and demodulated receiver audio to the left headphone.
 
 This is a work in progress. The Audio can be glitchy, but it does demonstrate some capability and is a start in understanding how to support other audio devices.
-It may be possible to get a bluetooth audio device to work - but so far I haven't had much luck.
+It may be possible to get a bluetooth audio device to work - but so far I haven't had much luck. Bluetooth functionalty may end up requiring a switch from ALSA to PULSE audio, which would be a non-trivial effort.
 
 The sbitx volume control may not work with devices other than the default WM8731 - use alsamixer or alsamixergui to adjust the volume of the audio device if necessary.
 
