@@ -17,5 +17,5 @@ It may be possible to get a bluetooth audio device to work - but so far I haven'
 
 The sbitx volume control may not work with devices other than the default WM8731 - use alsamixer or alsamixergui to adjust the volume of the audio device if necessary.
 
-NOTE: There are some other minor bug fixes and changes that are part of this package. One of the changes is to move the wisdom files to /home/pi/sbitx/data
+NOTE: There are some other minor bug fixes and changes that are part of this package. One of the changes is to move the wisdom files to /home/pi/sbitx/data. 
 Because of this change the first time the program is run it will need about a minute to generate the wisdom files, if they're not in the data directory already.
